@@ -1,3 +1,2 @@
-##The microphone is a transducer that converts sound waves into an electric signal (a voltage level). 
-That electric signal is transformed by an analog-to-digital converter (ADC), producing a digital 
-representation of the sound wave.
+## PySDR.org 
+ PySDR.org представляет собой вводный раздел учебника по программно-определяемому радио (SDR) и цифровой обработке сигналов (DSP) с использованием Python
