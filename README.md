@@ -9,7 +9,6 @@
 2. [Частотная область](#2-частотная-область)
 3. [Выборка IQ](#3-выборка-iq)
 4. [Цифровая модуляция](#4-цифровая-модуляция)
-5. [PlutoSDR в Python](#5-plutosdr-в-python)
 6. [USRP в Python](#6-usrp-в-python)
 7. [Шум и дБ](#7-шум-и-дб)
 8. [Фильтры](#8-фильтры)
@@ -182,27 +181,6 @@ plt.show()
  
  </details>
 
-### 5 PlutoSDR в Python
-<details>
- <summary> </summary>
-
-</details>
- 
- <details>
-   <summary> </summary>
- 
- </details>
-
- <details>
- <summary> </summary>
-
-</details>
- 
- <details>
-   <summary> </summary>
- 
- </details>
- 
 ### 6 USRP в Python
 <details>
  <summary> </summary>
