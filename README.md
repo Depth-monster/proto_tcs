@@ -1,5 +1,8 @@
 # СКРИПТЫ с детальными комментариями на google colab:
 <a href="https://colab.research.google.com/drive/1hY4sijr1Gw_4y67c38CbUiG5-dhzxmNf?usp=sharing" target="_blank"> Скрипты на питоне </a>
+
+<a href="javascript:void(0)" onclick="window.open('https://colab.research.google.com/drive/1hY4sijr1Gw_4y67c38CbUiG5-dhzxmNf?usp=sharing', '_blank')">Скрипты на питоне</a>
+
 # Предоставляю отчет в md по выполненной работе
 # Оглавление
 1. [Введение](#1-введение)
