@@ -41,30 +41,267 @@
    <summary> </summary>
  
  </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 3 Выборка IQ
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 4 Цифровая модуляция
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
 
 ### 5 PlutoSDR в Python
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 6 USRP в Python
-### 7 Шум и дБ
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
+### 7 Шум и дБ
+<details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 
 ### 8 Фильтры
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
 
 ### 9 Link budgets()
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 10 Кодирование канала
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
 
 ### 11 IQ файлы и SigMF
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 12 Многолучевое затухание
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 13 Формирование импульса
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
 ### 14 Синхронизация 
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+
+ <details>
+ <summary> </summary>
+
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
+ 
