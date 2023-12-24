@@ -73,6 +73,63 @@ import matplotlib.pyplot as plt
 ```
 Импортируем необходимые библиотеки: numpy для работы с массивами и математических операций, matplotlib.pyplot для визуализации результатов.
 
+```python
+def fft(x):
+    N = len(x)
+    if N == 1:
+        return x
+```
+Определяем функцию fft, которая будет рекурсивно вычислять преобразование Фурье входного массива x. Если длина массива x равна 1, возвращаем x, так как это базовый случай рекурсии.
+
+```python
+    twiddle_factors = np.exp(-2j * np.pi * np.arange(N//2) / N)
+    x_even = fft(x[::2])
+    x_odd = fft(x[1::2])
+```
+Рассчитываем коэффициенты Виттакера (twiddle factors) для рекурсивного деления сигнала на четные и нечетные индексы.
+
+```python
+    return np.concatenate([x_even + twiddle_factors * x_odd,
+                           x_even - twiddle_factors * x_odd])
+
+```
+Собираем результаты для четной и нечетной частей, умножая нечетную часть на коэффициенты Виттакера и объединяя результаты.
+
+```python
+# Simulate a tone + noise
+sample_rate = 1e6
+f_offset = 0.2e6 # 200 kHz offset from carrier
+N = 1024
+t = np.arange(N)/sample_rate
+s = np.exp(2j*np.pi*f_offset*t)
+```
+Создаем тональный сигнал с заданной частотой смещения f_offset от несущей частоты.
+```python
+n = (np.random.randn(N) + 1j*np.random.randn(N))/np.sqrt(2) # unity complex noise
+r = s + n # 0 dB SNR
+
+```
+Генерируем комплексный шум и добавляем его к нашему тональному сигналу s, получая результат с отношением сигнал/шум (SNR) 0 дБ
+```python
+# Perform fft, fftshift, convert to dB
+X = fft(r)
+X_shifted = np.roll(X, N//2) # equivalent to np.fft.fftshift
+X_mag = 10*np.log10(np.abs(X_shifted)**2)
+
+```
+Выполняем FFT для смешанного сигнала, сдвигаем нулевую частоту в центр и переводим результат в децибелы.
+```python
+# Plot results
+f = np.linspace(sample_rate/-2, sample_rate/2, N)/1e6 # plt in MHz
+plt.plot(f, X_mag)
+plt.plot(f[np.argmax(X_mag)], np.max(X_mag), 'rx') # show max
+plt.grid()
+plt.xlabel('Frequency [MHz]')
+plt.ylabel('Magnitude [dB]')
+plt.show() 
+
+```
+Строим график величины FFT в децибелах, отмечаем максимальное значение красным крестиком, и отображаем результаты. Частоты приведены в мегагерцах (MHz), а величина – в децибелах (dB).
 </details>
  
  <details>
