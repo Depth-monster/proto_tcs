@@ -32,7 +32,15 @@
  </details>
 
 ### 2 Частотная область
+<details>
+ <summary> </summary>
 
+</details>
+ 
+ <details>
+   <summary> </summary>
+ 
+ </details>
 ### 3 Выборка IQ
 
 ### 4 Цифровая модуляция
